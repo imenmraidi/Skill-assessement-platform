@@ -16,5 +16,5 @@ A web platform for recruiters to create and evaluate skill tests for candidates.
 - **Database:** PostgreSQL
 - **Authentication:** JWT
 - **State Management:** Redux
-- 
+
 ![consult_invit_int](https://github.com/user-attachments/assets/1373d287-2df3-4878-923c-379f9d6b782d)
