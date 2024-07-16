@@ -1,0 +1,32 @@
+.candidatTest {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  background-color: rgb(242, 242, 242);
+}
+.listCandidates {
+  flex-basis: 30%;
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  justify-content: center;
+}
+.candidateResults {
+  padding: 10px;
+  margin: 20px 20px 0px 20px;
+  flex-basis: 70%;
+  background-color: rgb(255, 255, 255);
+  overflow: auto;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3),
+  -2px -2px 5px rgba(255, 255, 255, 0.3);
+}
+.candiatesCards {
+  background-color: #ffff;
+  width: 300px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3),
+  -2px -2px 5px rgba(255, 255, 255, 0.3);
+}

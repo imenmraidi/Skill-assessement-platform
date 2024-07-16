@@ -1,0 +1,49 @@
+.beginTest {
+  margin: 70px 150px;
+  border-radius: 10px;
+  height: 650px;
+  display: flex;
+  background-color: #ffff;
+  flex-direction: column;
+  overflow: auto;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3),
+    -2px -2px 5px rgba(255, 255, 255, 0.3);
+}
+
+.option-box {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #e0e0e0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px;
+}
+
+.option-box:hover {
+  background-color: #e9f1fe;
+}
+
+.option-box.selected {
+  background-color: #e9f1fe;
+}
+
+.radio-button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #13217d;
+  background-color: #c9f7ff;
+  margin-right: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.checkbox {
+  width: 18px;
+  height: 18px;
+}

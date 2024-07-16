@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+.statistics {
+  display: flex;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+  height: 100%;
+  overflow: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.statcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+background-color: rgb(235, 235, 235);
+  width: 250px;
+  height: 150px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
