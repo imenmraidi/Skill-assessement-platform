@@ -17,4 +17,4 @@ A web platform for recruiters to create and evaluate skill tests for candidates.
 - **Authentication:** JWT
 - **State Management:** Redux
 
-![Capture d'écran 2024-07-16 020517](https://github.com/user-attachments/assets/cbbe39b7-0227-461c-80e2-cd59281b22a9)
+![Capture d'écran 2024-07-16 020726](https://github.com/user-attachments/assets/eb8e3dee-710a-42fe-b26b-21b3c684fc8f)
